@@ -46,6 +46,18 @@
           "engines": {
             "dsh": ">=0.2.2-rc.3"
           }
+        },
+        {
+          "version": "1.0.1",
+          "publishTimestamp": 1794726751,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/shuimuR/dsh-yingmi",
+            "commit": "46255694cec79245bdb78b60ffb2b9f8abe5b829"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
         }
       ]
     }
