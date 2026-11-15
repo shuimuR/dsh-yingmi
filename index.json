@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "title": {
+    "en": "shuimuR DSH plugins",
+    "zh": "shuimuR 的 DSH 插件"
+  },
+  "description": {
+    "en": "Third-party DeepSeek Harness bundles maintained by shuimuR.",
+    "zh": "shuimuR 维护的第三方 DeepSeek Harness 组合包。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-yingmi",
+      "title": {
+        "en": "Yingmi fund accounts",
+        "zh": "盈米基金账户"
+      },
+      "description": {
+        "en": "Signs in to Yingmi (Qieman) with OAuth and reads fund accounts, asset tree and holdings through Yingmi's official user-level MCP tools.",
+        "zh": "通过 OAuth 登录盈米（且慢），用官方 MCP 的用户级账户工具读取账户结构、资产树与持仓明细。"
+      },
+      "icon": "icons/dsh-yingmi.svg",
+      "author": "shuimuR",
+      "homepage": "https://github.com/shuimuR/dsh-yingmi#readme",
+      "repository": {
+        "url": "https://github.com/shuimuR/dsh-yingmi"
+      },
+      "metadata": {
+        "keywords": [
+          "yingmi",
+          "qieman",
+          "oauth",
+          "finance",
+          "fund"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794712905,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/shuimuR/dsh-yingmi",
+            "commit": "9d94bf081284cfd497d50ad750c974e4f0fbf071"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.3"
+          }
+        }
+      ]
+    }
+  ]
+}

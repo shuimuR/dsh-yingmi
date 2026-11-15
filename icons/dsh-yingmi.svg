@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Fund account chart">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#12233f"/>
+  <g fill="none" stroke="#6ea8ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 45 L27 35 L36 40 L47 24"/>
+  </g>
+  <circle cx="47" cy="24" r="4.5" fill="#9dc1ff"/>
+  <rect x="15" y="46" width="9" height="4" rx="2" fill="#3b5d94"/>
+  <rect x="27" y="42" width="9" height="4" rx="2" fill="#3b5d94"/>
+  <rect x="36" y="46" width="9" height="4" rx="2" fill="#3b5d94"/>
+</svg>
