@@ -1,0 +1,28 @@
+name: publish
+
+# npm 信任发布（OIDC / trusted publishing）：不需要 NPM_TOKEN，也不需要 2FA。
+# 在 npmjs.com 包设置的 Trusted Publisher 里填：仓库 shuimuR/dsh-yingmi、工作流 publish.yml。
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '只打包不发布'
+        type: boolean
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # OIDC 换 npm 发布权限的唯一必需权限
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: 'https://registry.npmjs.org'
+      - name: 自检（工具注册 + 导出形状 + 凭据键语法）
+        run: node scripts/smoke.mjs
+      - name: 发布
+        run: npm publish --access public --provenance ${{ inputs.dry_run && '--dry-run' || '' }}
