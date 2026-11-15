@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1
+
+发布前的崩溃安全加固（目的是让别人的 DSH 不会因为装了本插件而打不开）。
+
+- 默认导出改为 `{ name, inject, apply }`：宿主 loader 无论取模块命名空间还是 `.default`，都带 `inject`，不会再因 `cannot get property "tools" without inject` 挂不上。
+- OAuth 回调服务在 `listen` 成功后保留常驻 `error` 监听，回调 handler 的 promise 用 `.catch` 接住：都不会再把异常冒泡成 `uncaughtException` / `unhandledRejection` 打挂宿主进程。
+- `scripts/smoke.mjs` 增加断言：凭据键必须符合宿主 `<scope>/<id>` 语法；默认导出必须带 `name`/`inject`/`apply`。
+
 ## 1.0.0
 
 首个公开版本。

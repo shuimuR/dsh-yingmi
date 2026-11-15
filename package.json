@@ -1,6 +1,6 @@
 {
   "name": "dsh-yingmi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DeepSeek Harness host bundle that signs in to Yingmi (Qieman) through OAuth and reads fund accounts, asset tree and holdings through Yingmi's official user-level MCP tools.",
   "keywords": [
     "dsh",
