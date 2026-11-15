@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Yingmi fund accounts",
+    "description": "Signs in to Yingmi (Qieman) with OAuth and reads your fund accounts, asset tree, holdings and account-level analysis through Yingmi's official user-level MCP tools. Requires your own browser sign-in; access and refresh tokens stay in this machine's DSH credential store.",
+    "detail": "docs/DETAIL.md"
+  }
+}

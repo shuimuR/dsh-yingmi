@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Asset tree: one account, three strategies, six funds">
+  <g fill="none" stroke="#4c86e8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M200 150 H220 V74 H248"/>
+    <path d="M200 150 H248"/>
+    <path d="M200 150 H220 V226 H248"/>
+    <path d="M400 74 H412 V50 H440"/>
+    <path d="M400 74 H412 V90 H440"/>
+    <path d="M400 150 H412 V130 H440"/>
+    <path d="M400 150 H412 V170 H440"/>
+    <path d="M400 226 H412 V210 H440"/>
+    <path d="M400 226 H412 V250 H440"/>
+  </g>
+  <g fill="#4c86e8" fill-opacity="0.12" stroke="#4c86e8" stroke-width="2">
+    <rect x="32" y="120" width="168" height="60" rx="12"/>
+    <rect x="248" y="52" width="152" height="44" rx="10"/>
+    <rect x="248" y="128" width="152" height="44" rx="10"/>
+    <rect x="248" y="204" width="152" height="44" rx="10"/>
+    <rect x="440" y="36" width="168" height="28" rx="8"/>
+    <rect x="440" y="76" width="168" height="28" rx="8"/>
+    <rect x="440" y="116" width="168" height="28" rx="8"/>
+    <rect x="440" y="156" width="168" height="28" rx="8"/>
+    <rect x="440" y="196" width="168" height="28" rx="8"/>
+    <rect x="440" y="236" width="168" height="28" rx="8"/>
+  </g>
+  <g fill="#4c86e8">
+    <circle cx="200" cy="150" r="3"/>
+    <circle cx="248" cy="74" r="3"/>
+    <circle cx="248" cy="150" r="3"/>
+    <circle cx="248" cy="226" r="3"/>
+  </g>
+</svg>

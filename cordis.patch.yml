@@ -1,0 +1,7 @@
+# dsh-yingmi —— DSH bundle patch
+# 安装后把盈米 OAuth 插件挂到当前 profile：提供 yingmi_login / yingmi_status /
+# yingmi_logout / yingmi_accounts / yingmi_asset_tree / yingmi_tools / yingmi_call。
+
+- insert:
+    - id: dsh-yingmi
+      name: dsh-yingmi

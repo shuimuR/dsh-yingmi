@@ -1,0 +1,51 @@
+{
+  "name": "dsh-yingmi",
+  "version": "1.0.0",
+  "description": "DeepSeek Harness host bundle that signs in to Yingmi (Qieman) through OAuth and reads fund accounts, asset tree and holdings through Yingmi's official user-level MCP tools.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "yingmi",
+    "qieman",
+    "oauth",
+    "finance",
+    "fund"
+  ],
+  "license": "MIT",
+  "author": "shuimuR",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuimuR/dsh-yingmi.git"
+  },
+  "homepage": "https://github.com/shuimuR/dsh-yingmi#readme",
+  "bugs": {
+    "url": "https://github.com/shuimuR/dsh-yingmi/issues"
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.3"
+  },
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "locale",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
